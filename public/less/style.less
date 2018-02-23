@@ -22,11 +22,12 @@ table {
 	font-family: 'Roboto Condensed', sans-serif;
     border-collapse: collapse;
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
-table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+    height: 75px;
+  }
 
 table tr:hover {background-color: #ddd;}
 
@@ -88,3 +89,16 @@ form{
   display:none;
 }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+footer{
+      background-color: #4caf50;
+}
