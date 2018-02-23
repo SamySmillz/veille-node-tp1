@@ -27,7 +27,7 @@ const peupler=()=>{
 	let tell = tableau.tabTell[position]
 
 	 position=Math.floor(Math.random()*maxFam)
-	let fam = tableau.tabFam[position]
+	let fam = tableau.tabFam[position]    
 	
 	Membre={
 		"nom":ville,
