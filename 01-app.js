@@ -6,7 +6,7 @@ const ObjectID = require('mongodb').ObjectID;
 const bodyParser = require("body-parser");
 const peupler = require("./mes_modules/peupler");
 app.use(bodyParser.urlencoded({extended: true}));
-/* on associe le moteur de vue au module «ejs» */
+/* on associe le moteur de vue au module «ejs» */ 
 
 app.set('view engine', 'ejs'); // générateur de template
  var util = require("util");
