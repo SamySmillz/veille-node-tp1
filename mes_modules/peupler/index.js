@@ -7,12 +7,12 @@ console.log(tableau.tabDomaine);
 const maxVille = tableau.tabVille.length
 const maxFam = tableau.tabFam.length
 const maxTell = tableau.tabTell.length
-const maxDomaine = tableau.tabDomaine.length
+const maxDomaine = tableau.tabDomaine.length 
 
 
 
 const peupler=()=>{
-	console.log("ok")
+	//console.log("ok")
 	let tabPerso=[];
 	let Membre;
 	for (var i = 0; i < 10; i++) {

@@ -1,26 +1,26 @@
 "use script";
 const tabVille=[
-	"Danik",
-	"Laura",
-	"Samantha"
+	"Bob",
+	"Toto",
+	"Samuel"
 ]
 
 const tabFam=[
-	"Côté",
-	"Jean",
-	"Roland"
+	"Michel",
+	"Rausier",
+	"Paquet"
 ]
 
 const tabTell=[
-	"450-666-6666",
-	"514-777-7777",
-	"968-888-8888"
+	"514-656-6263",
+	"450-565-8425",
+	"854-888-8888"
 ]
 
 const tabDomaine=[
-	"danik@gmail.com",
-	"laura@videotron.ca",
-	"samantha@yahoo.com"
+	"Bob@gmail.com",
+	"Toto@videotron.ca",
+	"Samuel@yahoo.com"
 
 ]
 
@@ -30,35 +30,4 @@ const tableau={
 	tabTell :tabTell,
 	tabDomaine: tabDomaine
 }
-// module.exports.tabVille = tabVille
-// module.exports.tabDomaine = tabDomaine
-
 module.exports = tableau
-/*
-"use strict";
-let tableau{
-nom : [
-	"Danik",
-	"Laura",
-	"Samantha"
-],
-
-prenom : [
-	"Côté",
-	"Jean",
-	"Roland"
-],
-
-courriel : [
-	"danik@hotmail.com",
-	"laura@hotmail.com",
-	"samantha@hotmail.com"
-],
-
-telephone : [
-	"555-555-5555",
-	"666-666-6666",
-	"777-777-7777"
-]
-}
-module.exports = tableau;*/
